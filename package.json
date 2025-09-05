@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "build": "tsc",
+  "callback": "npm run build && node dist/callbackVersion/callbackVersion.js",
+  "promise" : "npm run build && node dist/promiseVersion/promiseVersion.js",
+  "async" :"npm run build && node dist/async/async.js"
   },
   "repository": {
     "type": "git",
