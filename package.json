@@ -5,7 +5,8 @@
   "scripts": {
    "build": "tsc",
   "callback": "npm run build && node dist/callbackVersion/callbackVersion.js",
-  "promise" : "npm run build && node dist/promiseVersion/promiseVersion.js"
+  "promise" : "npm run build && node dist/promiseVersion/promiseVersion.js",
+  "async" :"npm run build && node dist/async/async.js"
   },
   "repository": {
     "type": "git",
